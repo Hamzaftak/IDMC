@@ -1,3 +1,6 @@
 To connect to all-spark-notebook, we type the following line in PowerShell after opening the docker
 docker run -it --rm -p 8888:8888 -p 4040:4040 -v <C:/Users/Utilisateur/Desktop/Files/notebook>:/home/jovyan/work jupyter/all-spark-notebook:<2023-03-06>
 where <> should be removed after changing what inside 
+
+The file Pipeline.ipynb is an example and its data is logreg-dataset.csv
+The file ProjectBigData is a homework, its data is FC-Churn.csv and its solutions are Pipeline_Altakroury.ipynb and Pipeline_log_Altakroury.ipynb
